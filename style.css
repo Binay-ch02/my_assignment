@@ -1,0 +1,166 @@
+body{
+	background: #91939e;
+	font-family:arial;
+	font-size:1.5em;
+	line-height:30px;
+	margin: 0;
+	padding:0;
+}
+
+.wrapper{
+	width:80%;
+	margin:auto;
+}
+
+header{
+	background:#383737;
+	color:#ffffff;
+	padding-top:20px;
+	min-height:100px;
+	border-bottom:red 3px solid;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+
+header ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+header li{
+	float:left;
+	display:block;
+	padding:0 20px 0 20px;
+}
+header #logo h1{
+	margin:0;
+	padding:0;
+}
+
+header #logo{
+	float:left;
+
+}
+header nav{
+	float:right;
+}
+nav li a:hover{
+	background:#030508;
+	font-weight: bold;
+}
+ul li ul li{
+	display: none;
+}
+
+ul li:hover ul li{
+	display:block;
+}
+
+h1{
+	font-family: 'WaltographRegular';
+   	font-weight: normal;
+   	font-style: normal;
+}
+
+#showcase{
+	background: url("picture.jpg");
+	height:350px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:auto;
+	text-align:center;
+	padding-top:100px;
+	color:#ffffff;
+	opacity:0.8;
+	border-bottom:red 3px solid;
+}
+#showcase h1{
+	font-family: Arial;
+
+}
+footer{
+	background:#383737;
+	text-align:center;
+	height:75px;
+	padding-top:10px;
+	color:#ffffff;
+}
+header .log, header .current a{
+	color: red;
+}
+
+#newsletter{
+	text-align:center;
+	color: #ffffff;
+	height:420px;
+	
+	background:#1a365e;
+	padding-top:40px;
+	border-bottom:red 3px solid;
+
+}
+
+#newsletter input[type="email"]{
+	padding:20px;
+	height:30px;
+	width: 300px
+}
+
+#button{
+	height:100px;
+	width: 240px;
+	font-size: 2em;
+	background: #bd5a13;
+	color: #ffffff
+	
+
+}
+
+
+#blog1{
+	width:30%;
+	text-align:center;
+}
+
+#blog2{
+	width:30%;
+	text-align:center;
+}
+
+#blog3{
+	width:30%;
+	text-align:center;
+}
+
+#blog{
+	display:flex;
+	margin:auto;
+	padding-top:120px;
+	border-bottom:red 3px solid;
+
+}
+#details{
+	width:50%;
+	text-align:center;
+	
+}
+
+#msgbox{
+	width:30%;
+	padding:60px 0 0 50px;
+	text-align:center;
+	
+}
+
+.main{
+	display:flex;
+}
+
+.picture{
+	padding-left:200px;
+}
